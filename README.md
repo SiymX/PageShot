@@ -6,9 +6,11 @@ and the GLib library for utility functions. Then the program prompts the user to
 When the page has finished loading, the program will capture a screenshot of the window and then saves it as a PNG file on the user's desktop under the name
 'screenshot.png' and exits the program. 
 
+Please compile the code on your Ubuntu Desktop. Do not put the file in any other location before compilation.
 
 
-# Install
+
+# Installation
 This program might ask you to install some librarires so if it does just run the following command:
 ```
 sudo apt-get install libgtk-3-dev libwebkit2gtk-4.0-dev
