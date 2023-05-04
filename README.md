@@ -8,7 +8,25 @@ When the page has finished loading, the program will capture a screenshot of the
 
 
 
-# Install the following if required
+# Install
+This program might ask you to install some librarires so if it does just run the following command:
 ```
 sudo apt-get install libgtk-3-dev libwebkit2gtk-4.0-dev
 ```
+
+To see if it's installed:
+```
+pkg-config --modversion gtk+-3.0
+pkg-config --modversion webkit2gtk-4.0
+```
+
+
+# Compilation
+Make sure you are running it on a working version of ubuntu. To compile it run this command on terminal:
+```
+gcc -o pageshot pageshot.c `pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0`
+```
+
+If everything is done correctly then it will compile and you can run the program using: ```./pageshot```
+
+
