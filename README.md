@@ -1,3 +1,6 @@
+![pageshotGIT](https://github.com/SiymX/PageShot/assets/63435885/f083a001-3c41-4ba2-b92b-69354c3afa7a)
+
+
 # PageShot (Webpage Screenshot Taker)
 
 
